@@ -35,7 +35,7 @@ public class FirstServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		Date date = new Date();
 		out.println(HTML_START + "<h2>Hi There!..........</h2><br/><h3>Date="+date +"</h3>"+HTML_END);
-		out.println(HTML_START + "<h2>Welcome..........</h2><br/><h3>Date="+date +"</h3>"+HTML_END);
+		
 	}
 
 	/**
